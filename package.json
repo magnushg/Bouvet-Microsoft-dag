@@ -1,0 +1,6 @@
+{
+	"name": "MS_dag",
+	"dependencies": {
+		"express": "*"		
+	}
+}
