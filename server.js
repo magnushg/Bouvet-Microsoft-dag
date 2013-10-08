@@ -2,8 +2,9 @@ var express = require("express"),
 	app = express(),
 	port = 9900;
 
-app.use(express.static("app"));
+app.use("/app", express.static(__dirname + "/app"));
 app.use("/vendor", express.static(__dirname + "/vendor"));
+app.use("/content", express.static(__dirname + "/content"));
 	
 app.get('/', function(req, res) {
 	res.sendfile('index.html');
