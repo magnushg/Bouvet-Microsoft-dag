@@ -7,4 +7,4 @@ It demostrates getting data from one of the datasets in http://hotell.difi.no/. 
 
 run `npm install` after clone
 
-Start server using `node server.js`, then navigate to localhost:9000
+Start server using `node server.js`, then navigate to http://localhost:9900s
