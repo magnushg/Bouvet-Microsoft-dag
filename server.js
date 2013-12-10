@@ -1,6 +1,6 @@
 var express = require("express"),	
 	app = express(),
-	port = 9900;
+	port = process.env.PORT || 9900
 
 app.use("/app", express.static(__dirname + "/app"));
 app.use("/vendor", express.static(__dirname + "/vendor"));
